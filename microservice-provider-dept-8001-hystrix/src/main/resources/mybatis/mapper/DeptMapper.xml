@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.syb.springcloud.dao.DeptDao">
+
+	<insert id="addDept" parameterType="com.syb.entity.DeptPoJo">
+		INSERT INTO dept(dname,db_source) VALUES(#{dname},DATABASE());
+
+	</insert>
+
+	<update id="updateDept" parameterType="com.syb.entity.DeptPoJo">
+
+		update dept set dname =#{dname} where deptno = #{deptno}
+
+	</update>
+
+	<delete id="deleteDept" parameterType="Integer">
+
+		delete  from dept where deptno = #{deptno}
+
+	</delete>
+
+	<select id="getDept" resultType="com.syb.entity.DeptPoJo" parameterType="Integer">
+		select deptno,dname,db_source,lastdealdate from dept where deptno=#{deptno};
+	</select>
+
+	<select id="getAllDept" resultType="com.syb.entity.DeptPoJo">
+		select deptno,dname,db_source,lastdealdate from dept;
+	</select>
+
+</mapper>
+ 
+

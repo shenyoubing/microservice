@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-3344" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-customer-6001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-customer-feign-6001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-dashboard--9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-config-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-config-dept-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-dept-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-dept-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-dept-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-zuul-geteway-9527" charset="UTF-8" />
+  </component>
+</project>
